@@ -1,0 +1,17 @@
+C:\Users\romag\source\repos\MapIt\src\MapIt\bin\Debug\net6.0-windows\MapIt.exe
+C:\Users\romag\source\repos\MapIt\src\MapIt\bin\Debug\net6.0-windows\MapIt.deps.json
+C:\Users\romag\source\repos\MapIt\src\MapIt\bin\Debug\net6.0-windows\MapIt.runtimeconfig.json
+C:\Users\romag\source\repos\MapIt\src\MapIt\bin\Debug\net6.0-windows\MapIt.dll
+C:\Users\romag\source\repos\MapIt\src\MapIt\bin\Debug\net6.0-windows\MapIt.pdb
+C:\Users\romag\source\repos\MapIt\src\MapIt\obj\Debug\net6.0-windows\MapIt.csproj.AssemblyReference.cache
+C:\Users\romag\source\repos\MapIt\src\MapIt\obj\Debug\net6.0-windows\MapIt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romag\source\repos\MapIt\src\MapIt\obj\Debug\net6.0-windows\MapIt.AssemblyInfoInputs.cache
+C:\Users\romag\source\repos\MapIt\src\MapIt\obj\Debug\net6.0-windows\MapIt.AssemblyInfo.cs
+C:\Users\romag\source\repos\MapIt\src\MapIt\obj\Debug\net6.0-windows\MapIt.csproj.CoreCompileInputs.cache
+C:\Users\romag\source\repos\MapIt\src\MapIt\obj\Debug\net6.0-windows\MapIt.dll
+C:\Users\romag\source\repos\MapIt\src\MapIt\obj\Debug\net6.0-windows\refint\MapIt.dll
+C:\Users\romag\source\repos\MapIt\src\MapIt\obj\Debug\net6.0-windows\MapIt.pdb
+C:\Users\romag\source\repos\MapIt\src\MapIt\obj\Debug\net6.0-windows\MapIt.genruntimeconfig.cache
+C:\Users\romag\source\repos\MapIt\src\MapIt\obj\Debug\net6.0-windows\ref\MapIt.dll
+C:\Users\romag\source\repos\MapIt\src\MapIt\bin\Debug\net6.0-windows\keyMappings.json
+C:\Users\romag\source\repos\MapIt\src\MapIt\bin\Debug\net6.0-windows\MapIt.ico

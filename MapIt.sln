@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{443F639F-E4EB-4832-9855-1E41A05BD03A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapIt", "src\MapIt\MapIt.csproj", "{A412EC25-AA56-4896-B827-0173F0881D44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A412EC25-AA56-4896-B827-0173F0881D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A412EC25-AA56-4896-B827-0173F0881D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A412EC25-AA56-4896-B827-0173F0881D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A412EC25-AA56-4896-B827-0173F0881D44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A412EC25-AA56-4896-B827-0173F0881D44} = {443F639F-E4EB-4832-9855-1E41A05BD03A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C437B8F2-1A97-49AD-93A7-5D9B316C3A47}
+	EndGlobalSection
+EndGlobal
