@@ -5,7 +5,13 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{443F639F-E4EB-4832-9855-1E41A05BD03A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapIt", "src\MapIt\MapIt.csproj", "{A412EC25-AA56-4896-B827-0173F0881D44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapIt", "src\MapIt\MapIt.csproj", "{A412EC25-AA56-4896-B827-0173F0881D44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{460198CA-8BE2-48A9-BFB4-6B78E958B1D7}"
+	ProjectSection(SolutionItems) = preProject
+		Notes.txt = Notes.txt
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -15,3 +15,6 @@ C:\Users\romag\source\repos\MapIt\src\MapIt\obj\Debug\net6.0-windows\MapIt.genru
 C:\Users\romag\source\repos\MapIt\src\MapIt\obj\Debug\net6.0-windows\ref\MapIt.dll
 C:\Users\romag\source\repos\MapIt\src\MapIt\bin\Debug\net6.0-windows\keyMappings.json
 C:\Users\romag\source\repos\MapIt\src\MapIt\bin\Debug\net6.0-windows\MapIt.ico
+C:\Users\romag\source\repos\MapIt\src\MapIt\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\romag\source\repos\MapIt\src\MapIt\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\romag\source\repos\MapIt\src\MapIt\obj\Debug\net6.0-windows\MapIt.csproj.CopyComplete

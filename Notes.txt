@@ -1,0 +1,136 @@
+Version avec combinaisons de touches
+
+    //internal static class Program
+    //{
+    //    private const int WH_KEYBOARD_LL = 13;
+    //    private const int WM_KEYDOWN = 0x0100;
+    //    private const int WM_KEYUP = 0x0101;
+    //    private static LowLevelKeyboardProc _proc = HookCallback;
+    //    private static IntPtr _hookID = IntPtr.Zero;
+
+    //    // Dictionnaire pour suivre les touches maintenues
+    //    private static Dictionary<Keys, bool> keyState = new Dictionary<Keys, bool>();
+
+    //    // Mappage des touches simples (pas de combinaison)
+    //    private static Dictionary<Keys, Action> simpleKeyMapping = new Dictionary<Keys, Action>
+    //    {
+    //        { Keys.NumPad1, () => HandleKey("NumPad1") },
+    //        { Keys.NumPad2, () => HandleKey("NumPad2") },
+    //        { Keys.NumPad3, () => HandleKey("NumPad3") },
+    //        { Keys.Z, () => HandleKey("Z") },
+    //        { Keys.W, () => HandleKey("W") }
+    //    };
+
+    //    // Mappage des combinaisons de touches
+    //    private static Dictionary<Keys[], Action> keyCombinationMapping = new Dictionary<Keys[], Action>
+    //    {
+    //        { new[] { Keys.Control, Keys.Alt, Keys.NumPad1 }, () => HandleCombination("Ctrl + Alt + NumPad1") },
+    //        { new[] { Keys.Control, Keys.NumPad2 }, () => HandleCombination("Ctrl + NumPad2") },
+    //        { new[] { Keys.NumPad3, Keys.Z }, () => HandleCombination("NumPad3 + Z") }
+    //    };
+
+    //    [STAThread]
+    //    static void Main()
+    //    {
+    //        _hookID = SetHook(_proc);
+    //        Application.Run();
+    //        UnhookWindowsHookEx(_hookID);
+    //    }
+
+    //    private static IntPtr HookCallback(int nCode, IntPtr wParam, IntPtr lParam)
+    //    {
+    //        if (nCode >= 0)
+    //        {
+    //            int vkCode = Marshal.ReadInt32(lParam);
+    //            Keys key = (Keys)vkCode;
+
+    //            bool isKeyDown = wParam == (IntPtr)WM_KEYDOWN;
+    //            bool isKeyUp = wParam == (IntPtr)WM_KEYUP;
+
+    //            // Enregistrer l'état de la touche
+    //            if (isKeyDown)
+    //            {
+    //                if (!keyState.ContainsKey(key))
+    //                    keyState[key] = false;
+    //                keyState[key] = true;
+    //            }
+    //            else if (isKeyUp)
+    //            {
+    //                keyState[key] = false;
+    //            }
+
+    //            // Vérifier si une touche simple a été pressée
+    //            if (simpleKeyMapping.ContainsKey(key) && isKeyDown)
+    //            {
+    //                simpleKeyMapping[key].Invoke(); // Exécuter l'action pour la touche simple
+    //            }
+
+    //            // Vérifier les combinaisons de touches
+    //            foreach (var combination in keyCombinationMapping)
+    //            {
+    //                if (AreKeysPressed(combination.Key))
+    //                {
+    //                    combination.Value.Invoke(); // Exécuter l'action pour la combinaison
+    //                }
+    //            }
+
+    //            // Bloquer la touche originale si nécessaire
+    //            return (IntPtr)1;
+    //        }
+
+    //        return CallNextHookEx(_hookID, nCode, wParam, lParam);
+    //    }
+
+    //    // Vérifier si toutes les touches d'une combinaison sont enfoncées
+    //    private static bool AreKeysPressed(Keys[] keys)
+    //    {
+    //        foreach (var key in keys)
+    //        {
+    //            if (!keyState.ContainsKey(key) || !keyState[key])
+    //            {
+    //                return false;
+    //            }
+    //        }
+    //        return true;
+    //    }
+
+    //    // Fonction à exécuter lors de la détection d'une touche simple
+    //    private static void HandleKey(string key)
+    //    {
+    //        Console.WriteLine($"Touche simple détectée : {key}");
+    //    }
+
+    //    // Fonction à exécuter lors de la détection d'une combinaison de touches
+    //    private static void HandleCombination(string combination)
+    //    {
+    //        Console.WriteLine($"Combinaison de touches détectée : {combination}");
+    //    }
+
+    //    private static IntPtr SetHook(LowLevelKeyboardProc proc)
+    //    {
+    //        using (Process curProcess = Process.GetCurrentProcess())
+    //        using (ProcessModule curModule = curProcess.MainModule)
+    //        {
+    //            return SetWindowsHookEx(WH_KEYBOARD_LL, proc,
+    //                GetModuleHandle(curModule.ModuleName), 0);
+    //        }
+    //    }
+
+    //    private delegate IntPtr LowLevelKeyboardProc(int nCode, IntPtr wParam, IntPtr lParam);
+
+    //    [DllImport("user32.dll")]
+    //    private static extern uint SendInput(uint nInputs, INPUT[] pInputs, int cbSize);
+
+    //    [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
+    //    private static extern IntPtr SetWindowsHookEx(int idHook, LowLevelKeyboardProc lpfn, IntPtr hMod, uint dwThreadId);
+
+    //    [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
+    //    [return: MarshalAs(UnmanagedType.Bool)]
+    //    private static extern bool UnhookWindowsHookEx(IntPtr hhk);
+
+    //    [DllImport("user32.dll", CharSet = CharSet.Auto)]
+    //    private static extern IntPtr CallNextHookEx(IntPtr hhk, int nCode, IntPtr wParam, IntPtr lParam);
+
+    //    [DllImport("kernel32.dll", CharSet = CharSet.Auto, SetLastError = true)]
+    //    private static extern IntPtr GetModuleHandle(string lpModuleName);
+    //}

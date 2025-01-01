@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "hq3ECvignJQZIMHnAxfxUva1tKxFhnQspXwltj3M/px4RaXlx7bVNBMeGPbhP+yP29/zXjOEv7fGy+gPq29vdA==",
+  "dgSpecHash": "9bLhwlX1U1ZkC1ZLHya++4chcT+9+uHq+pCc20CdqS4ixPTxnpRUirfzqaLdCif4bK8SBfYOZjbDsNhbN3e3xw==",
   "success": true,
   "projectFilePath": "C:\\Users\\romag\\source\\repos\\MapIt\\src\\MapIt\\MapIt.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\romag\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0\\microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\romag\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
